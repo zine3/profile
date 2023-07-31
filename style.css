@@ -1,0 +1,63 @@
+body{
+  background-color: rgba(23, 214, 214, 0.936);
+  font-family: fantasy;
+  color:black;
+  font-size: medium;
+  line-height: 30px;
+  margin: 30px;
+ border: 3px;
+}
+img{
+  max-width: 50%;
+  height: auto;
+}
+h1,h2,h3{
+  color:rgb(234, 20, 202);
+  font-family: monospace;
+  line-height: 20%;
+}
+
+a{
+  text-decoration:solid;
+  color:blueviolet;
+}
+a:hover{
+  text-decoration: underline;
+}
+#img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: rgb(140, 166, 223);
+  padding: 50px;
+  border: 1px solid lightskyblue;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
